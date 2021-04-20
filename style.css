@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2? family = Montserrat: ital, wght @ 0,400; 1,100; 1,200; 1,300 & display = swap');
+
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    font-family: "Poppins";
+    box-sizing: border-box;
+}
+
+body {
+    text-align: center;
+    padding: 30px;
+    background-repeat:no-repeat;
+    display: flex;
+    min-height: 100vh;
+    min-width: 100vw;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+}
+
+main.recipiente {
+    background-image: url("img/padrao-de-pascoa-desenhado-a-mao_23-2148862418.jpg");
+    border-radius: 5px;
+    max-width: 300vh;
+    min-height: 30vh;
+    padding: 2rem;
+}
+main.recipiente2 {
+    background: white;
+    border-radius: 5px;
+    max-width: 3010vh;
+    min-height: 10vh;
+    padding: 2rem;
+}
+
+#cabecalho h1 {
+    color:#00B0FF ;
+    font-family: "Poppins";
+    line-height: 1.5;
+    font-size: 50px;
+    font-weight: 300;
+    margin-top: none;
+}
+hgroup {
+    float: none;
+    margin-bottom: 2rem;
+}
+
+#cabecalho h2 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: (0, 0, 0, 0.1);
+}
+#p01 {
+    font-family: "Montserrat";
+    font-weight: 300;
+    color: #00B0FF;
+    font-size: 20px;
+}
+#p02 {
+    line-height: 1.5;
+    margin-top: 50px;
+}
+h2{
+    font-weight: 300;
+    font: "Poppins";
+    margin-top: 5px;
+    color: rgba(0,0,0,0.6); 
+    margin-top: 45px;
+    font-size: 25px;
+    background: white;
+}
+h3 {
+    font-weight: 300;
+    font: "Poppins";
+    margin-top: 10px;
+    color: #00B0FF;
+}
+h4 {
+    font-weight: 300;
+    font: "Poppins";
+    margin-top: 5px;
+    color: #000000; 
+    margin-top: 45px;
+    font-size: 25px;
+    background: white;
+    border-radius: 5px;
+}
+h5 {
+    font-weight: 400;
+    font: "Montserrat";
+    color: #00B0FF; 
+    font-size: 15px;
+    border-radius: 5px;
+}
+main h1 {
+    font-weight: 600;
+    margin-bottom: 2rem;
+    position: relative;
+}
+main h1::before{
+    content: '';
+    position: absolute;
+    height: 4px;
+    width: 649px;
+    bottom: 0px;
+    left: 1px;
+    border-radius: 8px;
+    background: linear-gradient(45deg, #00B0FF, #2d6cca);
+}
+a {
+    text-decoration: none;
+    color: rgb(118, 175, 240);
+    background: linear-gradient(to right, #56a7f2, #468aca);
+}
+a:hover {
+    background-color: #2d6cca;
+}
+h5 {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    background: linear-gradient(to right, #56a7f2, #2d6cca);
+    padding: 0.2rem;
+    border-radius: 10px;
+    font-size: 0.75rem;
+    width: 50%;
+    cursor: pointer;
+    margin-left: 180px;
+}
+h5:hover {
+    background-color: #2d6cca;
+}
+
