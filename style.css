@@ -24,10 +24,12 @@ body {
 
 main.recipiente {
     background-image: url("img/padrao-de-pascoa-desenhado-a-mao_23-2148862418.jpg");
-    border-radius: 5px;
-    max-width: 300vh;
-    min-height: 30vh;
+    max-width: 700px;
+    min-height: 5vh;
     padding: 2rem;
+    box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    text-align: center;
 }
 main.recipiente2 {
     background: white;
@@ -63,14 +65,14 @@ hgroup {
 }
 #p02 {
     line-height: 1.5;
-    margin-top: 50px;
+    margin-top: 20px;
 }
 h2{
     font-weight: 300;
     font: "Poppins";
     margin-top: 5px;
     color: rgba(0,0,0,0.6); 
-    margin-top: 45px;
+    margin-top: 15px;
     font-size: 25px;
     background: white;
 }
@@ -102,16 +104,7 @@ main h1 {
     margin-bottom: 2rem;
     position: relative;
 }
-main h1::before{
-    content: '';
-    position: absolute;
-    height: 4px;
-    width: 649px;
-    bottom: 0px;
-    left: 1px;
-    border-radius: 8px;
-    background: linear-gradient(45deg, #00B0FF, #2d6cca);
-}
+
 a {
     text-decoration: none;
     color: rgb(118, 175, 240);
@@ -126,10 +119,9 @@ h5 {
     background: linear-gradient(to right, #56a7f2, #2d6cca);
     padding: 0.2rem;
     border-radius: 10px;
-    font-size: 0.75rem;
-    width: 50%;
-    cursor: pointer;
-    margin-left: 180px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
 }
 h5:hover {
     background-color: #2d6cca;
